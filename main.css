@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Galada&display=swap');
+
+body {
+
+    font-family: "Galada", cursive;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: rgb(221, 20, 20);
+}
+
+.container {
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    padding: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+button:hover {
+    background-color: #a4da12;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    color: rgb(5, 7, 7);
+    align-items: flex-end;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.completed {
+    text-decoration: line-through;
+}
